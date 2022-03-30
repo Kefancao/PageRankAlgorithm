@@ -8,3 +8,4 @@ The entirety of the internet can be thought of as a graph of nodes and edges. Ea
 
 <img width="491" alt="Screen Shot 2022-03-30 at 1 22 25 PM" src="https://user-images.githubusercontent.com/76069770/160894535-36777111-a60e-4d16-bc33-b0d05fb2115c.png">
 
+Of course, there are many details this explanation dismisses, such as the importance of a vote from a node, the likelihood of deadend pages, convergence of the transition matrix, etc. For more information on this topic, this wikipedia page provides a great starting point [link:"https://en.wikipedia.org/wiki/PageRank"]
