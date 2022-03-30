@@ -45,20 +45,17 @@ def SparseMatMult(G, x):
     return np.array([y]).T
   
   
-  def PageRank(G, alpha, maxIter=10000):
+def PageRank(G, alpha, maxIter=10000):
     '''
      p, iters = PageRank(G, alpha)
-
      Computes the Google Page-rank for the network in the adjacency matrix G.
      
      Note: This function never forms a full RxR matrix, where R is the number
            of node in the network.
-
      Input
        G     is an RxR adjacency matrix, G[i,j] = 1 iff node j projects to node i
              Note: G must be a dictionary-of-keys (dok) sparse matrix
        alpha is a scalar between 0 and 1
-
      Output
        p     is a probability vector containing the Page-rank of each node
        iters is the number of iterations used to achieve a change tolerance
@@ -153,7 +150,5 @@ plt.stem(np.arange(11), p_vec, use_line_collection=True)
 plt.title('Stem Plot of Page Rank Scores with alpha = 0.85')
 plt.xlabel("Nodes")
 plt.ylabel("Scores")
+plt.show()
 
-
-
-  
